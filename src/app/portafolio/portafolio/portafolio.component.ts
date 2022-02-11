@@ -26,14 +26,14 @@ export class PortafolioComponent implements OnInit {
   },
   {
     titulo: 'Bienes Raices',
-    subtitulo: 'HTML, CSS, TS, angular',
+    subtitulo: 'HTML, CSS, TS, ANGULAR',
     img: 'assets/img/bienes.PNG',
     descripcion: 'Página web para visualizar propiedades en venta',
     enlace: 'https://ohincapie.github.io/Bienes-Raices/',
     github:'https://github.com/OHincapie/Bienes-Raices'
   },
   {
-    titulo: 'Fetsival de Música',
+    titulo: 'Festival de Música',
     subtitulo: 'HTML, CSS, JS',
     img: 'assets/img/festival.PNG',
     descripcion: 'Página web informativa de un evento de música',
