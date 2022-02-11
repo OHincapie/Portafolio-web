@@ -1,0 +1,87 @@
+<div class="todo">
+    <div class="contenedor">
+        <div class="titulo-sobremi">
+            <h2>Sobre mí</h2>
+        </div>
+        <div class="codigo">
+            <br>
+            <p>
+                1. &nbsp;&nbsp;&nbsp;<span class="terminal--blue">Class&nbsp;</span><span
+                    class="terminal--green">SobreMi&nbsp;</span><span class="terminal--white">{{llave}}</span>
+            </p>
+            <p>
+                2. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="terminal--blue">Constructor&nbsp;</span><span
+                    class="terminal--white">()&nbsp;{{llave}}</span>
+            </p>
+            <p>
+                3. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    class="terminal--blue">this</span><span class="terminal--white">.</span><span
+                    class="terminal--light-blue">nombre</span><span class="terminal--white">=</span><span
+                    class="terminal--orange">"Oscar David Hincapie"</span>
+            </p>
+            <p>
+                4. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    class="terminal--blue">this</span><span class="terminal--white">.</span><span
+                    class="terminal--light-blue">tecnologias</span><span class="terminal--white">=&nbsp;[</span><span
+                    class="terminal--orange">"JavaScript"<span class="terminal--white">,</span>"TypeScript"<span
+                        class="terminal--white">,</span>"Angular"<span class="terminal--white">,</span>"Python"<span
+                        class="terminal--white">,</span>"MySQL"<span class="terminal--white">]</span></span>
+            </p>
+            <p>
+                5. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    class="terminal--blue">this</span><span class="terminal--white">.</span><span
+                    class="terminal--light-blue">edad</span><span class="terminal--white">=&nbsp;</span><span
+                    class="terminal--blue">new&nbsp;</span><span class="terminal--green">Date</span><span
+                    class="terminal--light-blue">()</span><span class="terminal--white">.</span><span
+                    class="terminal--light-blue">getFullYear()</span><span
+                    class="terminal--white">&nbsp;-&nbsp;</span><span class="terminal--green">2002</span>
+            </p>
+            <p>
+                6. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    class="terminal--blue">this</span><span class="terminal--white">.</span><span
+                    class="terminal--light-blue">ubicacion</span><span class="terminal--white">=</span><span
+                    class="terminal--orange">"Bogotá, Colombia"</span>
+            </p>
+            <p>
+                7. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    class="terminal--blue">this</span><span class="terminal--white">.</span><span
+                    class="terminal--light-blue">curriculum</span><span class="terminal--white">=</span><span
+                    class="terminal--orange"><a
+                        href="https://drive.google.com/file/d/1Pf6NVb8yVn4swejahLneCsq5lSuApKuQ/view?usp=sharing"
+                        target="_blank" style="text-decoration: underline;" class="terminal--orange">"Click
+                        aquí"</a></span>
+            </p>
+            <p>
+                8. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    class="terminal--blue">this</span><span class="terminal--white">.</span><span
+                    class="terminal--light-blue">masSobreMi</span><span class="terminal--white">=</span><span
+                    class="terminal--orange"><a style="text-decoration: underline; cursor: pointer;" (click)="click()"
+                        class="terminal--blue">{{masSobreMiString}}</a></span> <span
+                    class="terminal--dark-green">//Click para mostrar más sobre mí</span>
+            </p>
+            <p>
+                9. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="terminal--white">}</span>
+            </p>
+            <p>
+                10. &nbsp;&nbsp;&nbsp;&nbsp;<span class="terminal--white">}</span>
+            </p>
+
+        </div>
+
+        <div class="informacion" *ngIf="masSobreMi">
+            <p>Soy desarrollador web, apasionado por la tecnología, por los retos y por el constante aprendizaje.
+                Estudiante actual de un bootcamp de Machine learning con la Universidad Iberoamericana y diferentes cursos de desarrollo en Platzi.
+
+                Continuo en la búsqueda de retos que me permitan ampliar mi conocimiento y así mismo poder aportar en
+                los proyectos que me encuentre.           
+            </p>
+        </div>
+    </div>
+    <div class="custom-shape-divider-bottom-1644261610">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                class="shape-fill"></path>
+        </svg>
+    </div>
+</div>
