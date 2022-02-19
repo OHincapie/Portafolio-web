@@ -17,6 +17,14 @@ export class PortafolioComponent implements OnInit {
       github:''
     },
     {
+    titulo: 'MarvelDEX',
+    subtitulo: 'HTML,CSS, TS, ANGULAR',
+    img: 'assets/img/marvel.PNG',
+    descripcion: 'Consulta de tus personajes favoritos de Marvel, usando la API de Marvel con login incluido.',
+    enlace: 'https://ohincapie.github.io/MarvelDEX/',
+    github:'https://github.com/OHincapie/MarvelDEX'
+  },
+    {
     titulo: 'App salon',
     subtitulo: 'HTML, CSS, JS',
     img: 'assets/img/appsalon.PNG',
