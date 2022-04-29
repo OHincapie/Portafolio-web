@@ -35,8 +35,13 @@ export class TecnologiasComponent implements OnInit {
     },
     {
       nombre: 'Python',
-      value: 70,
+      value: 80,
       img: 'assets/img/python.png'
+    },
+    {
+      nombre: 'Spring Boot',
+      value: 80,
+      img: 'assets/img/spring.png'
     },
     {
       nombre: 'Angular',
@@ -45,12 +50,12 @@ export class TecnologiasComponent implements OnInit {
     },
     {
       nombre: 'MySQL',
-      value: 70,
+      value: 100,
       img: 'assets/img/mysql.png'
     },
     {
       nombre: 'GIT',
-      value: 80,
+      value: 100,
       img: 'assets/img/git.png'
     },
     {
